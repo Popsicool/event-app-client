@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import logo from '../images/logo.png'
 
 export const Home = () => {
   return (
@@ -9,7 +10,12 @@ export const Home = () => {
           <title>Eventy</title>
         </Helmet>
       </HelmetProvider>
-      <div>Home  alone</div>
+      <nav>
+        <div class='log-wr'>
+          <im src={logo} alt='logo'/>
+
+        </div>
+      </nav>
     </>
   )
 }

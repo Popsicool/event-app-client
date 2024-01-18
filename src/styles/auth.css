@@ -6,30 +6,51 @@
 }
 
 .auth-left{
-    display: grid;
-    place-items: center;
     width: 50%;
+    padding: 5%;
+    padding-top: 0;
+}
+.login-left{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
 }
 .auth-right{
-    width: 50%
+    width: 50%;
+    padding-top: 5%;
 }
 .auth-logo-wrapper{
-    width: 100px;
-    height: 130px;
+    width: 60px;
+    height: 100px;
     top: 50px;
     left: 1031px;
     gap: 2.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 .auth-logo-wrapper img{
     width: 100%;
     height: 100%;
 }
 .auth-sec-two{
-    width: 424px;
-    height: 424px;
+    width: 250px;
+    height: 250px;
     top: 202px;
     left: 891px;
     padding: 21.93px, 28.79px, 31.49px, 21.5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.loginLeftDown{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
 }
 .auth-sec-two img{
     width: 100%;
@@ -37,6 +58,11 @@
 }
 .icon-list{
     display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 .icon-wrap{
     width: 40px;
@@ -48,4 +74,175 @@
 }
 .auth-right-down{
     background-color: #663999;
+    display:grid;
+    place-items: center;
+    padding: 5%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.wel-back{
+    font-family: Plus Jakarta Sans;
+    font-size: 1.75rem;
+    font-weight: 600;
+    /* line-height: 2.18rem; */
+    letter-spacing: 0em;
+    text-align: left;
+}
+.lyA{
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    /* line-height: 1.25rem; */
+    letter-spacing: 0em;
+    text-align: left;
+}
+.loginInput{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #663999;
+    color: #8B8B8B;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.invalidU{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;
+}
+.lArroew{
+    background-color: #1E1E1E;
+    width: 20px;
+    height: 20px;
+    padding: 2%;
+    border-radius: 50%;
+}
+.reFog{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #1E1E1E;
+}
+.loginBtn{
+    width: 50%;
+    background: #663999;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dhac{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.sUp{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CDA02A;
+}
+
+.lis2{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F8F8F8;
+}
+.nBnT{
+    width: 40%;
+    border-radius: 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #663999;
+    padding: 2%;
+    border: none;
+
+}
+.lIs{
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.verifInpWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.verifInp{
+    width: 10%;
+    height: 40px;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #663999;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.forget-right{
+    width: 50%;
+    height: 100vh;
+}
+.forget-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.fpassWrap{
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fpassWrap img{
+    width: 100%;
+    height: 100%;
 }

@@ -13,7 +13,11 @@ export const AuthRight = () => {
       <div className='auth-sec-two'>
         <img src={authlog} alt="logo"/>
       </div>
-      <div className='auth-right-down'></div>
+      <div className='auth-right-down'>
+        <p className='lIs'>Lorem ipsum slonabb hfjiuiojjwjlnl awujek</p>
+        <p className='lis2'>Sign in to your accounts for all event planning</p>
+        <button className='nBnT'>Next</button>
+      </div>
     </div>
   )
 }

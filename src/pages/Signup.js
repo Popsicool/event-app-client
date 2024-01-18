@@ -7,30 +7,26 @@ import fb from "../images/fb.png"
 import ap from "../images/ap.png"
 import { Link } from 'react-router-dom';
 
-export const Login = () => {
+export const Signup = () => {
   return (
     <>
         <HelmetProvider>
             <Helmet>
-            <title>Login | Eventy</title>
+            <title>Signup | Eventy</title>
             </Helmet>
         </HelmetProvider>
-
-
-
         <div className='auth-main'>
           <div className='auth-left'>
             <div className='login-left'>
-              <h2 className='wel-back'>Welcome back</h2>
-              <p className='lyA'>Login to your account</p>
-              <p className='invalidU'>Invalid username or password </p>
+              <h2 className='wel-back'>Sign up to get started</h2>
               <form>
+                <input className='loginInput' placeholder='Full Name'/> <br/>
                 <input className='loginInput' placeholder='Email'/> <br/>
                 <input className='loginInput' placeholder='Password'/> <br/>
-                <p className='reFog'><span>Remember Me</span> <Link to={'/reset-password'}>Forgot Password?</Link></p>
+                <input className='loginInput' placeholder='Confirm password'/> <br/>
                 <div className='loginLeftDown'>
-                  <button className='loginBtn'>LOG IN <span className='lArroew'>&rarr;</span></button>
-                  <p className="dhac">Don't have an account? <Link to={'/signup'}><span  className='sUp'>Sign Up</span></Link></p>
+                  <button className='loginBtn'>SIGN UP<span className='lArroew'>&rarr;</span></button>
+                  <p className="dhac">Already have an account? <Link to={'/login'}><span  className='sUp'>Sign In</span></Link></p>
                   <p>OR</p>
                   <div className='icon-list'>
                     <div className='icon-wrap'>
