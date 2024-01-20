@@ -6,7 +6,9 @@ a{
 .App {
   text-align: center;
 }
-
+button{
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,6 +35,16 @@ a{
   color: #61dafb;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.showAnim{
+  transform: translateY(0px);
+  opacity: 1;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

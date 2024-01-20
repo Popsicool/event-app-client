@@ -1,0 +1,453 @@
+*{
+    background-color: #F8F8F8;
+}
+.landing-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.lan-nav-left{
+    width: 30px;
+    height: 30px;
+}
+.lan-nav-left img{
+    width: 150%;
+    height: 200%;
+}
+.lan-nav-mid{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.lan-sign{
+    border-radius: 30px;
+    border: 1px solid #663999;
+    width: 120px;
+    padding: 10%;
+}
+.land-hero{
+    display: grid;
+    place-items: center;
+}
+.tUlti{
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E;
+    width: 60%;
+}
+.tUlti2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #663999;
+}
+.tUltim{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E;
+    width: 40%;
+}
+.waitlistBtn{
+    border-radius: 20px;
+    padding: 5%;
+    width: 300px;
+    background-color: #663999;
+    color: #FFFFFF;
+}
+.land-sec-two{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 500px; */
+}
+.land-sec-two img{
+    width: 100%;
+    height: 100%;
+}
+.land-sec-three{
+    background-color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.trustB{
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E;
+    background-color: #ffffff;
+}
+.useEv{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    background-color: #ffffff;
+    text-align: center;
+    color: #8B8B8B;
+}
+.land-sec-four{
+    padding: 5% 2%;
+}
+.ftur{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #8B8B8B;
+    background-color: #FFFFFF;
+    padding:.5%;
+    border-radius: 20px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color:#663999;
+}
+.dmeasy{
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1E1E1E;
+}
+.dmeasy2{
+    width: 55%;
+}
+.gsad{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8B8B8B;
+}
+
+.dividedTwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.dividedtwoLeft{
+    width: 30%;
+    border-radius: 30px;
+    padding: 5%;
+    height: 400px;
+    border:1px solid #663999;
+}
+.dividedtwoRight{
+    width: 45%;
+    border-radius: 30px;
+    padding: 5%;
+    height: 400px;
+    border:1px solid #663999;
+}
+.asake{
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.ololade{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+    width: 70%;
+}
+.divimgwrap{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+.divimgwrap img{
+    width: 100%;
+    height: 100%;
+}
+.land-sec-five, .tes{
+    background-color: #ffffff;
+}
+.land-sec-five{
+    padding: 5% 1%;
+}
+.test-slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.test-box{
+    width: 18%;
+    padding: 3%;
+    border: 0.5px solid #663999;
+    border-radius: 20px;
+}
+.test-box-top{
+    display: flex;
+    gap: 10px;
+}
+.test-box-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.test-box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.test-name{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.test-word{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.land-sec-six{
+    position: relative;
+}
+.land-sec-six-inner1{
+    background-color: #ffffff;
+    width:100%;
+    position: absolute;
+    top: 0px;
+}
+.land-sec-six-inner{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #fefefe;
+    border: 1px solid #663999;
+    border-radius: 30px;
+    padding:1%;
+}
+.sancho-wrap{
+    width: 25%;
+    height: 400px;
+    background-color: #fefefe;
+}
+.sancho-mid{
+    width: 50%;
+    height: 400px;
+    background-color: #fefefe;
+}
+.spye{
+    width: 80%;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    background-color: #fefefe;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1e1e1e;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.ebe{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    background-color: #fefefe;
+    text-align: center;
+    color: #1E1E1E;
+}
+.sancho-wrap img{
+    width: 100%;
+    height: 100%;
+    background-color: #fefefe;
+}
+.sancho-btn{
+    background-color: #663999;
+    width: 40%;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+
+}
+.footer-land{
+    background-color: #F8F8F8;
+    padding-top: 40%;
+    /* z-index: 2; */
+    display: flex;
+}
+.footer-left{
+    width: 50%;
+    border-right: 1px solid #D5D5D5;
+}
+.footer-left-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #D5D5D5;
+}
+.footer-logo{
+    width: 10%;
+    height: 100px;
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer-eve{
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1e1e1e;
+    width: 30%;
+}
+.footer-your{
+    width: 60%;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1e1e1e;
+}
+.footer-left-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.foo-pro{
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.foo-fea{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8B8B;
+}
+.supdated{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.eventNews{
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+.sub-form{
+    display: flex;
+}
+.subinp{
+    background-color: #FFFFFF;
+    border: 1px solid #8B8B8B;
+    color: #8B8B8B;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 60%;
+    padding: 2%;
+    padding-right: 10%;
+    border-radius: 30px;
+}
+.sub-btn{
+    background-color: #663999;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding: 5%;
+    border-radius: 30px;
+    position: absolute;
+    left: -40px;
+    border: none;
+    width: 50%;
+    height: 100%;
+}
+.sub-btn-wrap{
+    position: relative;
+    width: 100%;
+}
+.connect{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}

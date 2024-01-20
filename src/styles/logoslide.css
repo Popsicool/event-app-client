@@ -1,0 +1,40 @@
+.logo-slider {
+    width: 100%; /* Adjust the width based on your layout */
+    overflow: hidden;
+    display: flex;
+    background-color: #ffffff;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    margin-right: 3%;
+    white-space: nowrap;
+    animation: slideRightToLeft 10s linear infinite; /* Adjust timing as needed */
+  }
+  .log-log{
+    width:50px;
+    background-color: #F8F8F8;
+    padding: 3%;
+    display: grid;
+    place-items: center;
+    border-radius: 25%;
+  }
+  .logo-container img {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10%;
+  }
+  
+  @keyframes slideRightToLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
