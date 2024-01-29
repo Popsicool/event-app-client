@@ -4,7 +4,7 @@
 .landing-nav{
     display: flex;
     justify-content: space-between;
-    padding: 2%;
+    padding: 2% 5%;
 }
 .lan-nav-left{
     width: 30px;
@@ -19,6 +19,7 @@
     width: 20%;
     justify-content: space-between;
     padding-top: 1%;
+    font-weight: bolder;
 }
 .lan-sign{
     border-radius: 30px;
@@ -29,6 +30,7 @@
 .land-hero{
     display: grid;
     place-items: center;
+    padding-top: 10%;
 }
 .tUlti{
     font-family: Plus Jakarta Sans;
@@ -57,13 +59,15 @@
     letter-spacing: 0em;
     text-align: center;
     color: #1E1E1E;
-    width: 40%;
+    padding: 2% 0;
 }
 .waitlistBtn{
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 5%;
     width: 300px;
-    background-color: #663999;
+    border: none;
+    background: linear-gradient(90deg, #663999 0%, #CDA02A 100%);
+
     color: #FFFFFF;
 }
 .land-sec-two{
@@ -129,7 +133,7 @@
     line-height: 45px;
     letter-spacing: 0em;
     text-align: center;
-    width: 35%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     color: #1E1E1E;
@@ -201,12 +205,14 @@
     background-color: #ffffff;
 }
 .land-sec-five{
-    padding: 5% 1%;
+    padding: 5% 1% 35% 1%;
 }
 .test-slider{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 5%;
+    gap: 2%;
     background-color: #ffffff;
 }
 .test-box{
@@ -250,14 +256,16 @@
 }
 .land-sec-six-inner1{
     background-color: #ffffff;
-    width:100%;
+    /* padding-top: 15%; */
+    width:80%;
     position: absolute;
-    top: 0px;
+    border-radius: 30px;
+    top: -250px;
+    left: 10%;
 }
 .land-sec-six-inner{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    background-color: #ffffff;
     display: flex;
     background-color: #fefefe;
     border: 1px solid #663999;
@@ -320,9 +328,10 @@
 }
 .footer-land{
     background-color: #F8F8F8;
-    padding-top: 40%;
-    /* z-index: 2; */
+    padding: 20% 0% 10% 5%;
+    border-bottom: 1px solid #D5D5D5;
     display: flex;
+    
 }
 .footer-left{
     width: 50%;
@@ -331,12 +340,14 @@
 .footer-left-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
     width: 100%;
     border-bottom: 1px solid #D5D5D5;
 }
 .footer-logo{
-    width: 10%;
-    height: 100px;
+    width: 45px;
+    height: 60px;
 }
 .footer-logo img{
     width: 100%;
@@ -353,7 +364,7 @@
     width: 30%;
 }
 .footer-your{
-    width: 60%;
+    width: 50%;
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 300;
@@ -364,6 +375,7 @@
 }
 .footer-left-bottom{
     display: flex;
+    padding-top: 10%;
     width: 100%;
     justify-content: space-between;
 }
@@ -389,10 +401,13 @@
     font-family: Plus Jakarta Sans;
     font-size: 20px;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 0px;
     letter-spacing: 0em;
     text-align: left;
     color: #1E1E1E;
+}
+.footer-right{
+    padding: 0% 3% 2% 3%;
 }
 .eventNews{
     font-family: Plus Jakarta Sans;
@@ -405,6 +420,7 @@
 }
 .sub-form{
     display: flex;
+    padding: 20% 0;
 }
 .subinp{
     background-color: #FFFFFF;
@@ -416,7 +432,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    width: 60%;
+    width: 100%;
     padding: 2%;
     padding-right: 10%;
     border-radius: 30px;
@@ -433,7 +449,7 @@
     padding: 5%;
     border-radius: 30px;
     position: absolute;
-    left: -40px;
+    left: -60px;
     border: none;
     width: 50%;
     height: 100%;
@@ -450,4 +466,22 @@
     letter-spacing: 0em;
     text-align: left;
     color: #1E1E1E;
+}
+.soci-row{
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+}
+.soci-row-img-wrap{
+    width: 24px;
+    height: 24px;
+}
+.soci-row-img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.stars-row{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
 }

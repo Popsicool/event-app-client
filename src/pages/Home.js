@@ -3,7 +3,13 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import logo from '../images/logo.png'
 import herr from '../images/herr.png'
 import tecno from '../images/tecno.jpg'
+// import down from '../images/down.png'
 import sanc1 from '../images/sancho1.png'
+import star from '../images/star.png'
+import ins from '../images/in.png'
+import fb from '../images/fb.png'
+import ln from '../images/ln.png'
+import tw from '../images/tw.png'
 import sanc2 from '../images/sancho2.png'
 import "../styles/landing.css"
 import { Link } from 'react-router-dom';
@@ -23,9 +29,16 @@ export const Home = () => {
           <img src={logo} alt='logo'/>
         </div>
         <div className='lan-nav-mid'>
-          <p>Home</p>
-          <p>Feauture</p>
-          <p>About</p>
+          <p><Link to="/">Home</Link></p>
+          <div>
+            <a href="/">
+            <p>Feauture</p>
+            {/* <img src={down} alt="down-arrow"/> */}
+            </a>
+          </div>
+            <p>
+                About
+            </p>
         </div>
         <div className='lan-nav-right'>
           <Link to={'/signup'}><button className='lan-sign'>Sign In <span>  &rarr;</span></button></Link>
@@ -33,10 +46,19 @@ export const Home = () => {
       </nav>
       <div className='land-hero'>
         <p className='tUlti'>The ultimate Backup and Restore tool for teams and <span className='tUlti2'>individual</span></p>
-        <p className='tUltim'>You can now Backup your important files and save them from unplanned loss. Also restore the files when you are ready.</p>
+        <p className='tUltim'>You can now Backup your important files and save them from unplanned loss.<br/>Also restore the files when you are ready.</p>
         <div>
           <button className='waitlistBtn'>Join the waitlist  &rarr;</button>
         </div>
+        <div className='stars-row'>
+          <div className='star-wrap'>
+            <img src={star} alt='star'/>
+          </div>
+          <div className='star-wrap'>
+            <img src={star} alt='star'/>
+          </div>
+        </div>
+
       </div>
       <div className='land-sec-two reveal'>
         <img src={herr} alt="hero"/>
@@ -73,7 +95,7 @@ export const Home = () => {
       <div className='land-sec-five'>
         <p className='ftur'>Testimonies</p>
         <p className='dmeasy dmeasy2 tes'>See some testimonies from our users all over the world</p>
-        <p className='gsad tes'>Here are some reviews from people that used Restore</p>
+        <p className='gsad tes'>Here are some reviews from people that used Eventy</p>
         <div className='test-slider'>
           <div className='test-box'>
             <div className='test-box-top'>
@@ -185,6 +207,28 @@ export const Home = () => {
               </div>
             </form>
             <p className='connect'>Connect with us</p>
+            <div className='soci-row'>
+            <Link to="/">
+                <div className='soci-row-img-wrap'>
+                  <img src={ln} alt="linkedin"/>
+                </div>
+              </Link>
+              <Link to="/">
+                <div className='soci-row-img-wrap'>
+                  <img src={ins} alt="inst"/>
+                </div>
+              </Link>
+              <Link to="/">
+                <div className='soci-row-img-wrap'>
+                  <img src={fb} alt="facebook"/>
+                </div>
+              </Link>
+              <Link to="/">
+                <div className='soci-row-img-wrap'>
+                  <img src={tw} alt="twitter"/>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </footer>

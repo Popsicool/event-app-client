@@ -1,6 +1,7 @@
 .logo-slider {
-    width: 100%; /* Adjust the width based on your layout */
+    width: 100%; 
     overflow: hidden;
+    padding-top: 3%;
     display: flex;
     background-color: #ffffff;
   }
@@ -21,7 +22,7 @@
     padding: 3%;
     display: grid;
     place-items: center;
-    border-radius: 25%;
+    border-radius: 50%;
   }
   .logo-container img {
     width: 100%;
