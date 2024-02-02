@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import logo from '../images/logo.png'
 import herr from '../images/herr.png'
-import tecno from '../images/tecno.jpg'
 // import down from '../images/down.png'
 import sanc1 from '../images/sancho1.png'
 import star from '../images/star.png'
@@ -15,6 +14,7 @@ import "../styles/landing.css"
 import { Link } from 'react-router-dom';
 import create from '../images/create.png'
 import { LogoSlider } from '../components/LogoSlider';
+import { TestinonySlider } from '../components/TestinonySlider';
 
 export const Home = () => {
   return (
@@ -41,12 +41,15 @@ export const Home = () => {
             </p>
         </div>
         <div className='lan-nav-right'>
-          <Link to={'/signup'}><button className='lan-sign'>Sign In <span>  &rarr;</span></button></Link>
+          <Link to={'/signup'}><button className='lan-sign'>Sign In <span className='aM'>  &rarr;</span></button></Link>
         </div>
       </nav>
       <div className='land-hero'>
         <p className='tUlti'>The ultimate Backup and Restore tool for teams and <span className='tUlti2'>individual</span></p>
         <p className='tUltim'>You can now Backup your important files and save them from unplanned loss.<br/>Also restore the files when you are ready.</p>
+        <div className='land-sec-two mob'>
+          <img src={herr} alt="hero"/>
+        </div>
         <div>
           <button className='waitlistBtn'>Join the waitlist  &rarr;</button>
         </div>
@@ -60,7 +63,7 @@ export const Home = () => {
         </div>
 
       </div>
-      <div className='land-sec-two reveal'>
+      <div className='land-sec-two reveal desk'>
         <img src={herr} alt="hero"/>
       </div>
       <div className='land-sec-three'>
@@ -92,53 +95,7 @@ export const Home = () => {
         </div>
 
       </div>
-      <div className='land-sec-five'>
-        <p className='ftur'>Testimonies</p>
-        <p className='dmeasy dmeasy2 tes'>See some testimonies from our users all over the world</p>
-        <p className='gsad tes'>Here are some reviews from people that used Eventy</p>
-        <div className='test-slider'>
-          <div className='test-box'>
-            <div className='test-box-top'>
-              <div className='test-box-img'>
-                <img src={tecno} alt="tecno"/>
-              </div>
-              <p className='test-name'>Aina Adeyemi</p>
-            </div>
-            <p className='test-word'>Recovery has assisted me in saving my files and getting them back even after I have lost them in an attack or unplanned disaster. It also built to suit my taste through different plans that applies to me.</p>
-
-          </div>
-          <div className='test-box'>
-            <div className='test-box-top'>
-              <div className='test-box-img'>
-                <img src={tecno} alt="tecno"/>
-              </div>
-              <p className='test-name'>Ajani Lekan</p>
-            </div>
-            <p className='test-word'>Recovery has assisted me in saving my files and getting them back even after I have lost them in an attack or unplanned disaster. It also built to suit my taste through different plans that applies to me.</p>
-
-          </div>
-          <div className='test-box'>
-            <div className='test-box-top'>
-              <div className='test-box-img'>
-                <img src={tecno} alt="tecno"/>
-              </div>
-              <p className='test-name'>Ajani Lekan</p>
-            </div>
-            <p className='test-word'>Recovery has assisted me in saving my files and getting them back even after I have lost them in an attack or unplanned disaster. It also built to suit my taste through different plans that applies to me.</p>
-
-          </div>
-          <div className='test-box'>
-            <div className='test-box-top'>
-              <div className='test-box-img'>
-                <img src={tecno} alt="tecno"/>
-              </div>
-              <p className='test-name'>Ajani Lekan</p>
-            </div>
-            <p className='test-word'>Recovery has assisted me in saving my files and getting them back even after I have lost them in an attack or unplanned disaster. It also built to suit my taste through different plans that applies to me.</p>
-
-          </div>
-        </div>
-      </div>
+      <TestinonySlider/>
       <div className='land-sec-six'>
         <div className='land-sec-six-inner1'>
           <div className='land-sec-six-inner'>
@@ -167,7 +124,7 @@ export const Home = () => {
                 <img src={logo} alt='logo'/>
               </div>
               <p className='footer-eve'>EventApp</p>
-              <p className='footer-your'>
+              <p className='footer-your desk'>
                   Your go-to help when you need to plan your event in a hassle free way, and get the best result.
               </p>
             </div>

@@ -7,6 +7,7 @@ import fb from "../images/fb.png"
 import ap from "../images/ap.png"
 import { Link } from 'react-router-dom';
 
+
 export const Signup = () => {
   return (
     <>
