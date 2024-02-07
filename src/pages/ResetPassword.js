@@ -19,11 +19,11 @@ export const ResetPassword = () => {
                     <div className='fpassWrap'>
                         <img src={fpass} alt='forget-pass'/>
                     </div>
-                    <p>Please enter your email address to receive a link to reset your password</p>
+                    <p className='pet'>Please enter your email address to receive a link to reset your password</p>
                     <form>
                         <input className='loginInput' placeholder='Email' type='email'/> <br/>
                         <div className='loginLeftDown'>
-                            <button className='loginBtn'>SEND <span className='lArroew'>&rarr;</span></button>
+                            <button className='loginBtn'>SEND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right fff"></i></button>
                         </div>
                     </form>
                 </div>

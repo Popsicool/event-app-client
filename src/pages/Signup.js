@@ -26,7 +26,7 @@ export const Signup = () => {
                 <input className='loginInput' placeholder='Password'/> <br/>
                 <input className='loginInput' placeholder='Confirm password'/> <br/>
                 <div className='loginLeftDown'>
-                  <button className='loginBtn'>SIGN UP<span className='lArroew'>&rarr;</span></button>
+                  <button className='loginBtn'>SIGN UP  <i class="fa fa-arrow-right fff"></i></button>
                   <p className="dhac">Already have an account? <Link to={'/login'}><span  className='sUp'>Sign In</span></Link></p>
                   <p>OR</p>
                   <div className='icon-list'>

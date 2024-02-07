@@ -9,6 +9,13 @@ a{
 button{
   cursor: pointer;
 }
+.fff{
+  background-color: #1e1e1e;
+  color: #FFFFFF;
+  padding: 3%;
+  font-size: 15px;
+  border-radius: 50%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

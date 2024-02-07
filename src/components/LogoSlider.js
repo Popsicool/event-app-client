@@ -1,7 +1,7 @@
 import React from 'react'
 import hof from '../images/hofaaw.png'
 import fog from '../images/fog_logo.jpg'
-import check from '../images/check.png'
+import gifard from '../images/gifard.jpg'
 import '../styles/logoslide.css'
 
 export const LogoSlider = () => {
@@ -15,7 +15,7 @@ export const LogoSlider = () => {
                 <img src={fog} alt="Logo 2" />
             </div>
             <div className='log-log'>
-                <img src={check} alt="Logo 1" />
+                <img src={gifard} alt="Logo 1" />
             </div>
             <div className='log-log'>
                 <img src={fog} alt="Logo 2" />
@@ -24,7 +24,7 @@ export const LogoSlider = () => {
                 <img src={hof} alt="Logo 1" />
             </div>
             <div className='log-log'>
-                <img src={check} alt="Logo 2" />
+                <img src={gifard} alt="Logo 2" />
             </div>
         {/* Add more logos as needed */}
         </div>
@@ -36,7 +36,7 @@ export const LogoSlider = () => {
                 <img src={fog} alt="Logo 2" />
             </div>
             <div className='log-log'>
-                <img src={check} alt="Logo 1" />
+                <img src={gifard} alt="Logo 1" />
             </div>
             <div className='log-log'>
                 <img src={fog} alt="Logo 2" />
@@ -45,7 +45,7 @@ export const LogoSlider = () => {
                 <img src={hof} alt="Logo 1" />
             </div>
             <div className='log-log'>
-                <img src={check} alt="Logo 2" />
+                <img src={gifard} alt="Logo 2" />
             </div>
         {/* Add more logos as needed */}
         </div>

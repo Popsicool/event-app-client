@@ -28,7 +28,7 @@ export const Verification = () => {
                             <input type="number" className='verifInp'/>
                         </div>
                     </form>
-                  <button className='loginBtn'>VERIFY <span className='lArroew'>&rarr;</span></button>
+                  <button className='loginBtn'>VERIFY      <i class="fa fa-arrow-right fff"></i></button>
                   <p className="dhac">Re-send verification code in 0:60</p>
                 </div>
                 </div>

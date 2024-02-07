@@ -54,7 +54,7 @@ export const Login = () => {
                   <p><Link to={'/reset-password'} className='fpas'>Forgot Password?</Link></p>
                   </div>
                 <div className='loginLeftDown'>
-                  <button className='loginBtn'>LOG IN <span className='lArroew'>&rarr;</span></button>
+                  <button className='loginBtn'>LOG IN <i class="fa fa-arrow-right fff"></i></button>
                   <p className="dhac">Don't have an account? <Link to={'/signup'}><span  className='sUp'>Sign Up</span></Link></p>
                   <p>OR</p>
                   <div className='icon-list'>

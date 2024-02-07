@@ -17,6 +17,11 @@ export const AuthRight = () => {
         <p className='lIs'>Lorem ipsum slonabb hfjiuiojjwjlnl awujek</p>
         <p className='lis2'>Sign in to your accounts for all event planning</p>
         <button className='nBnT'>Next</button>
+        <div className="dots-row">
+          <div className='dot'></div>
+          <div className='dot'></div>
+          <div className='dot'></div>
+        </div>
       </div>
     </div>
   )
